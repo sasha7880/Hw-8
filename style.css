@@ -1,0 +1,68 @@
+.color-pink {
+    color:pink;
+}
+.color-red {
+    color:red;
+}
+#greycol 
+{
+    color: grey;
+}
+.greencol {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.schedule-body > tr:hover {
+    background-color:rgb(254, 161, 176);
+    color: purple;
+  }
+  /* Оформлення таблиці */
+  .schedule {
+    border-collapse: collapse;
+  }
+  .schedule th,
+  .schedule td {
+    padding: 5px;
+    border: 3px solid #1e00ff;
+  }
+  .Monday {
+    background-color: rgb(244, 76, 76);
+    color: rgb(255, 117, 167);
+
+  }
+  .Tuesday {
+    background-color: rgb(255, 162, 0);
+    color: rgb(255, 117, 167);
+  }
+  .Wednesday {
+    background-color: rgb(252, 252, 85);
+    color: rgb(255, 117, 167);
+
+  }
+  .Thursday {
+    background-color: rgb(141, 252, 85);
+    color: rgb(255, 117, 167);
+
+  }
+  .Friday {
+    background-color: rgb(85, 121, 252);
+    color: rgb(255, 117, 167);
+  }
+  .tdone {
+    background-color:rgb(165, 119, 235);
+    color: rgb(143, 3, 3);
+  }
+  .trdone {
+    background-color:rgb(119, 229, 235);
+    color: rgb(143, 3, 3);
+  }
+  .trrow {
+    background-color:rgb(152, 235, 119);
+    color: rgb(143, 3, 3); 
+  }
+  .trfourrow {
+    background-color:rgb(235, 233, 119);
+    color: rgb(143, 3, 3); 
+  }
