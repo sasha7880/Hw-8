@@ -13,94 +13,32 @@ p:only-child {
 p:nth-child(7) {
   color: green;
 }
-
 .yellow {
   color: yellow;
 }
-thead tr:first-child td:nth-child(1) {
-  background-color: rgb(244, 76, 76);
-  color: rgb(255, 117, 167);
+
+
+li:nth-child(1) {
+  color:rgb(249, 255, 84);
 }
-.schedule thead tr:first-child td:nth-child(2) {
-  background-color: rgb(255, 162, 0);
-  color: rgb(255, 117, 167);
+li:nth-child(2) {
+  color:rgb(165, 255, 92);
 }
-.schedule thead tr:first-child td:nth-child(3) {
-  background-color: rgb(252, 252, 85);
-  color: rgb(255, 117, 167);
+li:nth-child(3) {
+  color:rgb(97, 255, 239);
 }
-.schedule thead tr:first-child td:nth-child(4) {
-  background-color: rgb(141, 252, 85);
-  color: rgb(255, 117, 167);
+li:nth-child(4) {
+  color:rgb(126, 114, 255);
 }
-.schedule thead tr:first-child td:nth-child(5) {
-  background-color: rgb(85, 121, 252);
-  color: rgb(255, 117, 167);
+li:nth-child(1):hover{
+  color:rgb(255, 0, 0);
 }
-.schedule thead tr:first-child td:hover {
-  background-color: rgb(255, 200, 200);
-  color: rgb(0, 0, 0);
+li:nth-child(2):hover{
+  color:rgb(255, 0, 0);
 }
-.schedule tbody tr:nth-child(1) td {
-  background-color: rgb(177, 125, 255);
-  color: rgb(143, 3, 3);
+li:nth-child(3):hover{
+  color:rgb(255, 0, 0);
 }
-.schedule tbody tr:nth-child(1):hover td {
-  background-color: rgb(200, 150, 255);
-  color: rgb(255, 62, 62);
-}
-.schedule tbody tr:nth-child(2) td {
-  background-color: rgb(119, 229, 235);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:nth-child(2):hover td {
-  background-color: rgb(150, 250, 255);
-  color: rgb(255, 61, 61);
-}
-.schedule tbody tr:nth-child(3) td {
-  background-color: rgb(152, 235, 119);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:nth-child(3):hover td {
-  background-color: rgb(200, 255, 180);
-  color: rgb(255, 77, 77);
-}
-.schedule tbody tr:nth-child(4) td {
-  background-color: rgb(235, 233, 119);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:nth-child(4):hover td {
-  background-color: rgb(255, 250, 150);
-  color: rgb(255, 66, 66);
-}
-.schedule {
-  border-collapse: collapse;
-}
-  .schedule tbody tr:nth-child(1) td {
-  background-color: rgb(165, 119, 235);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:nth-child(2) td {
-  background-color: rgb(119, 229, 235);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:nth-child(3) td {
-  background-color: rgb(152, 235, 119);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:nth-child(4) td {
-  background-color: rgb(235, 233, 119);
-  color: rgb(143, 3, 3);
-}
-.schedule tbody tr:hover {
-  background-color: rgb(254, 161, 176);
-  color: purple;
-}
-.schedule {
-  border-collapse: collapse;
-}
-.schedule th,
-.schedule td {
-  padding: 5px;
-  border: 3px solid #1e00ff;
+li:nth-child(4):hover{
+  color:rgb(255, 0, 0);
 }
